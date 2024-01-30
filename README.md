@@ -7,13 +7,13 @@ HTML which is (Hyper Text Markup Language) is lick a an internet backbone used t
 HTML uses tages which are enclosed in less or greater than symbols to mark different elements. They are opening tags and closing tags <p> for opening and </p> for closing. These tags are both required, you can not use openning tag without closing it, vice vesa.
 
 Tags that are as follows
-Paragraph tag <p> <p/>,  When you write a paragraph you open this tag and when you have finished you close it. The paragraphs can be separated  whith the same tags.
+Paragraph tag <p> <p/>,  When you write a paragraph you open the tag and when you have finished you close it. The paragraphs can be separated  whith the same tags.
 Headline tags <h> </h>, Headlines come in six different types: h1, h2, h3, h4, h5, and h6. These tags are used in headlines, and in sub headlines. The element which is h1 is the largest, and h6 is the smallest.
 Bold tags <strong> </strong> and <b> </b>, These tags <strong> make text to be bold, which is used to show importance, or urgency. Then there is <b> element which is normal and does not carry any specific meaning, it simply allows us to make something bold visually and does not imply any alternative voice or mood.
 Italic tags <i> </i> and <em></em>, <em> represent emphasized text, typicallty displayed in italics. <i> displays in italic. These 2 tags may appear identical but carry different meaning.
 List tags <li></li>, This is use to define a list within ordered that you may first use this element <ol> or unordered and you may also use this element <ol>.
 
-HTML Quotes
+HTML Quotess
 <cite> , <q> and <blockquote> <cite> is used to reference the source of a quote. Om the otherside <blockquote> is used to indicate that the enclosed text that is no longer quotated from another source. <q> is also use dto define inline quotation. It indicates that the enlosed text ia a quaotation and browser may tipically shows it with quotation mark.
 
 Date Elements
