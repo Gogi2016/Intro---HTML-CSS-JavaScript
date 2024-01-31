@@ -46,6 +46,7 @@ To insert video we use <video src= "file.mov"></video>, for inserting an image <
 
 Linking
 <a href="url">link text</a> This will display the word written in "link text" which is the link that will navigate to another page.
+
 The link's destination is specified in the href attribute.
 
 Navigation
