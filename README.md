@@ -1,12 +1,13 @@
 # Intro---HTML & CSS
 
 ## Unit 1: Introduction
-HTML which is (Hyper Text Markup Language) is an internet backbone used to create Apps and websites. It helps computers understand what human want to say and do. The web uses 3 main languages HTML for content, CSS for styles and Javascript tha adds interactions. If there are issues in THML or CSS, browsers try its best to keep things working, making them their problrm solving meaning if there is a mistake, browser tries its best to make it function.
+HTML which is (Hyper Text Markup Language) is an internet backbone used to create Apps and websites. It helps computers understand what human want to say and do. The web uses 3 main languages HTML for content, CSS for styles and Javascript that adds interactions. If there are issues in THML or CSS, browsers try its best to keep things working, making them their problrm solving meaning if there is a mistake, browser tries its best to make it function.
 
 ## Unit 2 Text-Formatting
 HTML uses tages which are enclosed in less or greater than symbols to mark different elements. They are opening tags and closing tags <p> for opening and </p> for closing. These tags are both required, you can not use openning tag without closing it, vice vesa.
 
 Tags that are as follows
+Body tags <body> </body>, This defines the document's body. element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, lists.
 Paragraph tag <p> <p/>,  When you write a paragraph you open the tag and when you have finished you close it. The paragraphs can be separated  whith the same tags.
 Headline tags <h> </h>, Headlines come in six different types: h1, h2, h3, h4, h5, and h6. These tags are used in headlines, and in sub headlines. The element which is h1 is the largest, and h6 is the smallest.
 Bold tags <strong></strong> and <b></b>, these tags <strong> make the text to be bold which shows importance. The <b> is the normal one and does not have any meaning but just simply allows developer to make text bold.
@@ -14,12 +15,12 @@ Italic <i></i> and emphasized <em></em>, <em> emphasises a taext that is typical
 List tags <li></li> These tags are used to define a list that is ordered (<ol>) or unordered (<ul>
 
 HTML Quotes
-<cite>, <q> and <blockqoute>, These quotes are usually used in articles most of the times. <cite> is use to reference a source's qoute. 
+<cite>, <q> and <blockqoute>, These quotes are usually used in articles most of the times. <cite> is use to reference a source's qoute. defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.). Specifies the source of the quotation. The text in the <cite> element usually renders in italic.
 <q> is commonly used to determine inline quotes and can be indicated by quotation marks in the browser.
-<blockqoute> indicates that the text is no longer qouted from another source.
+<blockqoute> Defines a section that is quoted from another source
 
 Date Element
-<time> this element help us deals with both date and time in this tag it will show the users what you actually wrote between these tags. It allows us to write dates in a ways tha can be understood by people. There is also an attribute used which is datetime, which has a specific format like 2024-01-30 that tells the computer the exact date. e.g you can write January 30th between the <time> tags but we actually use (datetime) attricute like this <time datetime="2024-01-30">January 30, 2024</time >, This si what understoond by the computer.
+<time>  tag defines a specific time (or datetime). It allows us to write dates in a ways tha can be understood by people. There is also an attribute used which is datetime, which has a specific format like 2024-01-30 that tells the computer the exact date. e.g you can write January 30th between the <time> tags but we actually use (datetime) attricute like this <time datetime="2024-01-30">January 30, 2024</time >, This si what understoond by the computer. It Represent a machine-readable format of the <time> element
 
 HTML superscripts, subscripts and small text
 superscript tag <sup></sup> these are used for text that should be displayed above the normal text line, often for things like maths exponents
@@ -46,8 +47,8 @@ To insert video we use <video src= "file.mov"></video>, for inserting an image <
 
 Linking
 <a href="url">link text</a> This will display the word written in "link text" which is the link that will navigate to another page.
-
 The link's destination is specified in the href attribute.
+The <link> tag defines the relationship between the current document and an external resource. i.e  <link rel="stylesheet" href="styles.css">
 
 Navigation
 The <nav> tag defines a set of navigation links
