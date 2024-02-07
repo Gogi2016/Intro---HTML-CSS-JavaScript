@@ -45,6 +45,7 @@ Comments are added usibg <!--comment here-->, This is helpful for quickly identi
 Using Uppercases for tags, like <LI></LI> does not affect the browser's rendering. Its a matter of conveting and readability.
 To insert video we use <video src= "file.mov"></video>, for inserting an image <img src= "file.jpg"></img>, make sure you choose the correl url of that image or video.
 
+## Unit 4 Navigation and Linking
 Linking
 <a href="url">link text</a> This will display the word written in "link text" which is the link that will navigate to another page.
 The link's destination is specified in the href attribute.
@@ -56,5 +57,20 @@ The <nav> tag defines a set of navigation links
 
 HTML URL Pathways
 There is a folder with files, like images and screens. Its file has its own location in that folder. Web addresses (URL) helps us finds the link of these files.  For example If the folder has a file name Images, then you are looking for a certain image in the file. You can not just type the URL of an image, you start looking for a file from the folder then then the image URL. Which means the image you are looking for might use the URL (/images/myself.jpg) or (../images/myself.jpg)
+
+## Unit 5 Working with Graphics and Images
+There are four attributes that need to be included for every image:
+First, we have the source attribute (SRC), which tells the browser which image file to load. 
+Then we have the alt attribute (ALT), which provides a text description of the image. 
+Lastly, we have the width and height attributes, which determine the size of the image.
+it can be coded using the ff code <img src="myself.jpg" alt="My self">
+
+SVGs are ideal for logos, icons, and illustrations because they are vector files, containing drawing instructions instead of pixels. This allows them to be scaled to any size without losing quality, and they have small file sizes. SVG is a graphics programming language, and you can learn more about it through dedicated courses. These files can be exported from design programs like Illustrator or Sketch and used like other web file formats.
+GIFs work well for illustrations with big areas of the same color, but not so much for photos. They only support 256 colors, so photos can look pixelated unless you want a retro look. GIFs can have transparent parts, but the edges might look jagged between transparent and solid areas.
+JPGs are good for compressing photos, and many cameras save pictures in this format. However, when using them on websites, it's crucial to resize and compress them properly to avoid slowing down the loading speed. Don't use huge, partially compressed JPGs. You can make JPGs smaller by adjusting color info, finding the right quality-size balance. You can do this yourself or use online tools for help.
+PNG is a newer image format good for transparent photos and can sometimes compress images better than GIF or JPG. When compressing files, try different options for the smallest size. New image formats may come in the future for better compression. When dealing with images, think about size, format, and compression for faster downloads. Surprisingly, the HTML code stays the same no matter the image format you pick.
+
+
+
 
 
