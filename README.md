@@ -64,7 +64,7 @@ First, we have the source attribute (SRC), which tells the browser which image f
 Then we have the alt attribute (ALT), which provides a text description of the image. 
 Lastly, we have the width and height attributes, which determine the size of the image.
 it can be coded using the ff code <img src="myself.jpg" alt="My self">
-se the figcaption element to wrap the text and designate it as a caption. Then, put the image and the caption together in a figure element. <figure><img src="vuyo.png" alt="Myself" width="250" Height="200"><figcaption>This is my self</figcaption></figure>
+Use the figcaption element to wrap the text and designate it as a caption. Then, put the image and the caption together in a figure element. <figure><img src="vuyo.png" alt="Myself" width="250" Height="200"><figcaption>This is my self</figcaption></figure>
 
 SVGs are ideal for logos, icons, and illustrations because they are vector files, containing drawing instructions instead of pixels. This allows them to be scaled to any size without losing quality, and they have small file sizes. SVG is a graphics programming language, and you can learn more about it through dedicated courses. These files can be exported from design programs like Illustrator or Sketch and used like other web file formats. If you want to create a compact image that can display in large sizes without pixelation,
 GIFs work well for illustrations with big areas of the same color, but not so much for photos. They only support 256 colors, so photos can look pixelated unless you want a retro look. GIFs can have transparent parts, but the edges might look jagged between transparent and solid areas.
@@ -74,8 +74,9 @@ PNG is a newer image format good for transparent photos and can sometimes compre
 ## Unitt 7 Working With Media
 The audio element is different from the image element because it has both an opening and a closing tag, <audio controls src="audio.mp3"></audio>
 Instead of relying on pre-built audio player controls, there is an option to create your own using JavaScript and the HTML media element API, <audio controls><source src="http/:example.com" type="audio/org:code">
+In Videos, Just like the audio element, the video element has an opening and closing tag. To display a video, use the source attribute to specify the video file, <video controls><source src="http/:example.com" type="video/mp4"></video>
 
-Just like the audio element, the video element has an opening and closing tag. To display a video, use the source attribute to specify the video file, <video controls><source src="http/:example.com" type="video/mp4"
+Use the track element and link it to a text file to add captions to the video. This element adds functionality to the video player, allowing viewers to toggle captions on and off or switch between different subtitle options. <video controls><source src="http/:example.com" type="video/mp4"><track src="https/:,..." kind="caption" label="english" srclang="en" default>
 
 
 
