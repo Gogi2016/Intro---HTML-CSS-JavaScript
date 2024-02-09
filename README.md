@@ -57,6 +57,7 @@ The <nav> tag defines a set of navigation links
 
 HTML URL Pathways
 There is a folder with files, like images and screens. Its file has its own location in that folder. Web addresses (URL) helps us finds the link of these files.  For example If the folder has a file name Images, then you are looking for a certain image in the file. You can not just type the URL of an image, you start looking for a file from the folder then then the image URL. Which means the image you are looking for might use the URL (/images/myself.jpg) or (../images/myself.jpg)
+There are two types of URLs:  Absolute and Relative URL. An absolute URL provides the complete web address for a resource, including the protocol (usually "http" or "https"), the domain name (e.g., www.example.com), and the specific path to the resource on the server. A relative URL, on the other hand, specifies the location of a resource in relation to the current document. It doesn't include the full domain and protocol information but provides a path relative to the current page.
 
 ## Unit 5 Working with Graphics and Images
 There are four attributes that need to be included for every image:
