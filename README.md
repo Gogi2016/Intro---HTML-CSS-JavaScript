@@ -64,6 +64,7 @@ First, we have the source attribute (SRC), which tells the browser which image f
 Then we have the alt attribute (ALT), which provides a text description of the image. 
 Lastly, we have the width and height attributes, which determine the size of the image.
 it can be coded using the ff code <img src="myself.jpg" alt="My self">
+se the figcaption element to wrap the text and designate it as a caption. Then, put the image and the caption together in a figure element. <figure><img src="vuyo.png" alt="Myself" width="250" Height="200"><figcaption>This is my self</figcaption></figure>
 
 SVGs are ideal for logos, icons, and illustrations because they are vector files, containing drawing instructions instead of pixels. This allows them to be scaled to any size without losing quality, and they have small file sizes. SVG is a graphics programming language, and you can learn more about it through dedicated courses. These files can be exported from design programs like Illustrator or Sketch and used like other web file formats. If you want to create a compact image that can display in large sizes without pixelation,
 GIFs work well for illustrations with big areas of the same color, but not so much for photos. They only support 256 colors, so photos can look pixelated unless you want a retro look. GIFs can have transparent parts, but the edges might look jagged between transparent and solid areas.
