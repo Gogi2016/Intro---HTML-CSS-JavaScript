@@ -65,12 +65,16 @@ Then we have the alt attribute (ALT), which provides a text description of the i
 Lastly, we have the width and height attributes, which determine the size of the image.
 it can be coded using the ff code <img src="myself.jpg" alt="My self">
 
-SVGs are ideal for logos, icons, and illustrations because they are vector files, containing drawing instructions instead of pixels. This allows them to be scaled to any size without losing quality, and they have small file sizes. SVG is a graphics programming language, and you can learn more about it through dedicated courses. These files can be exported from design programs like Illustrator or Sketch and used like other web file formats.
+SVGs are ideal for logos, icons, and illustrations because they are vector files, containing drawing instructions instead of pixels. This allows them to be scaled to any size without losing quality, and they have small file sizes. SVG is a graphics programming language, and you can learn more about it through dedicated courses. These files can be exported from design programs like Illustrator or Sketch and used like other web file formats. If you want to create a compact image that can display in large sizes without pixelation,
 GIFs work well for illustrations with big areas of the same color, but not so much for photos. They only support 256 colors, so photos can look pixelated unless you want a retro look. GIFs can have transparent parts, but the edges might look jagged between transparent and solid areas.
 JPGs are good for compressing photos, and many cameras save pictures in this format. However, when using them on websites, it's crucial to resize and compress them properly to avoid slowing down the loading speed. Don't use huge, partially compressed JPGs. You can make JPGs smaller by adjusting color info, finding the right quality-size balance. You can do this yourself or use online tools for help.
 PNG is a newer image format good for transparent photos and can sometimes compress images better than GIF or JPG. When compressing files, try different options for the smallest size. New image formats may come in the future for better compression. When dealing with images, think about size, format, and compression for faster downloads. Surprisingly, the HTML code stays the same no matter the image format you pick.
 
+## Unitt 7 Working With Media
+The audio element is different from the image element because it has both an opening and a closing tag, <audio controls src="audio.mp3"></audio>
+Instead of relying on pre-built audio player controls, there is an option to create your own using JavaScript and the HTML media element API, <audio controls><source src="http/:example.com" type="audio/org:code">
 
+Just like the audio element, the video element has an opening and closing tag. To display a video, use the source attribute to specify the video file, <video controls><source src="http/:example.com" type="video/mp4"
 
 
 
