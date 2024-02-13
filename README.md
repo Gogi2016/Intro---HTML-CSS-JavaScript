@@ -27,17 +27,27 @@ superscript tag <sup></sup> these are used for text that should be displayed abo
 subscript tags <sub></sub> are used for text that should be displayed below the normal text line, commonly used in chemical formular or maths notations.
 small text tag <small></small> these tags are used to decrease the size of the text.
 
+HTML Code, pre and br
+When you want to show code on a webpage, you can use the "code" element to make the text look like code. By default, this code will appear within the text, like part of a sentence. To display symbols like "<" or ">", you can use special codes so they don't get confused with HTML tags.
+If you want to show code on a webpage without it running as actual code, you can use "br" (line break) and "pre" (preformatted) elements. "br" is a tag that creates a line break, and "pre" preserves the formatting and spaces you put in your code.
+When writing code, you can add spaces and line breaks for readability, but the web browser usually ignores them. To make those spaces and breaks visible, you can use "br" at the end of each line.
+
 ## Unit 3 HTML capabilities
 Opening Developer Tools, Right click on a webpage & choose inspecter element or go to tools then web developer and select inspector, this will open up a set of tools
 Inspector section, in the inspector you will see 3 sectionswhich are HTML on the left, CSS on the middle and more other options on the right the focus on HTML section on the left.
 If you encounter issues like unordered list showing an unexpexted empty item, then you can use develper tools to inverstigste, the browser will try to fix the HTML mistake by adding an extra item
+When evaluating markup, it is critical to visit other websites with similar information and utilize the HTML inspector to identify errors. For example, if the website was created by a team we admire, analyzing their work allows us to better grasp how to structure our own HTML. Additionally, the HTML inspector in the development tools can be utilized to debug errors.
+One problematic code example is an unordered list with four elements that should be numbered one, two, three, four. However, the results display a blank list rather than five things. To resolve this, we can open the developer tools by right-clicking and looking closer. It turns out that the browser adds an additional set of tags while constructing the DOM tree
 
 HTML Attributes
+Attribute provide an additional information about the elament.
 Class Attribute, is like giving name to a group of element  on a webpage. it is used to style multiple elements once using CSS. i.e if you want all youe headings to look the same you just give them the same class.
 ID Attribute, this is similar to Class ID but can only be used once in a page. It is useful for creating links  that jump to a specific section on the page.
 
 ARIA Roles
 these are extra attributes added to HTML elements to help browser understand thier  meaning, and that ensure websites are accessible to everyone including those with dissabilities. Accessibility require website to be accesible to everyone.
+ARIA Roles are like extra attributes that we can add to HTML elements to make them more meaningful and help browsers understand what they represent. The goal is to rely on proper HTML elements to convey the right message about the content's meaning, without needing ARIA Roles
+The accessibility tree, a component of the DOM tree, is essential for assistive devices like screen readers to improve user experience. It treats content as separate text containers, potentially causing poor reading experiences.
 
 Formatting HTML
 White space in HTML, HTML ignores extra spaces, tabs or linr breaks, however elements like <pre>, <code> and <extraarea> or when modified with CSS may consider extra spaced and indetations. If tou modify whitespace handling with CSS, it can affect how spaces and indetantions are displayed. In most cases browser do not care about more than a single space. 
