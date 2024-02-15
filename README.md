@@ -174,4 +174,21 @@ Add Placeholder for Clarity: Make the email field friendlier by adding a suggest
 <tr></tr> is the table row, Wraps around set of elements defining them as belonging to the same row. it have attributes which are colspan, rowspan and headers
 <td></td> is the table data, marks the actual bits of data. 
 <th></th> these are table headers that defines a header for a column. it have attributes which are colspan, rowspan and scope
-
+for example: 
+<table>
+  <tr>
+    <th>Full Name</th>
+    <th>Address</th>
+    <th>contact</th>
+  </tr>
+  <tr>
+    <td>Gogi Vuyo</td>
+    <td>Vlei A/A</td>
+    <td>0789318700</td>
+  </tr>
+  <tr>
+    <td>Lutho Mbekwa</td>
+    <td>Mkhambathi Res</td>
+    <td>0733047979</td>
+  </tr>
+</table>
