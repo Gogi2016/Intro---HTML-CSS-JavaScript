@@ -166,3 +166,12 @@ Testing Connection: Click on the label and make sure the typing area gets highli
 Specify Input Types: For the name field, you don't need to do anything special because it's for text (the default). So, it's like saying, "Hey browser, expect text here." For the email field, you tell the browser it's for email addresses by adding `type="email"`. This helps the browser check if what's typed is a valid email.
 Make Email Field Required: Add `required` to the email field. It's like saying, "Hey, you must fill this out before moving on." The browser won't let them submit the form without an email.
 Add Placeholder for Clarity: Make the email field friendlier by adding a suggestion inside it. Use `placeholder="Enter your email"` to give users a hint. It's like saying, "Hey, this is what I expect from you."
+
+## Unit 10 Organizing Tabular Information in HTML
+
+## Building HTML Tables
+<table></table> ths is a table, it wraps all table
+<tr></tr> is the table row, Wraps around set of elements defining them as belonging to the same row. it have attributes which are colspan, rowspan and headers
+<td></td> is the table data, marks the actual bits of data. 
+<th></th> these are table headers that defines a header for a column. it have attributes which are colspan, rowspan and scope
+
