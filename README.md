@@ -77,19 +77,48 @@ Lastly, we have the width and height attributes, which determine the size of the
 it can be coded using the ff code <img src="myself.jpg" alt="My self">
 Use the figcaption element to wrap the text and designate it as a caption. Then, put the image and the caption together in a figure element. <figure><img src="vuyo.png" alt="Myself" width="250" Height="200"><figcaption>This is my self</figcaption></figure>
 
-SVGs are ideal for logos, icons, and illustrations because they are vector files, containing drawing instructions instead of pixels. This allows them to be scaled to any size without losing quality, and they have small file sizes. SVG is a graphics programming language, and you can learn more about it through dedicated courses. These files can be exported from design programs like Illustrator or Sketch and used like other web file formats. If you want to create a compact image that can display in large sizes without pixelation,
-GIFs work well for illustrations with big areas of the same color, but not so much for photos. They only support 256 colors, so photos can look pixelated unless you want a retro look. GIFs can have transparent parts, but the edges might look jagged between transparent and solid areas.
-JPGs are good for compressing photos, and many cameras save pictures in this format. However, when using them on websites, it's crucial to resize and compress them properly to avoid slowing down the loading speed. Don't use huge, partially compressed JPGs. You can make JPGs smaller by adjusting color info, finding the right quality-size balance. You can do this yourself or use online tools for help.
-PNG is a newer image format good for transparent photos and can sometimes compress images better than GIF or JPG. When compressing files, try different options for the smallest size. New image formats may come in the future for better compression. When dealing with images, think about size, format, and compression for faster downloads. Surprisingly, the HTML code stays the same no matter the image format you pick.
+SVGs (Scalable Vector Graphics):
+Ideal for logos, icons, and illustrations.
+They use instructions to draw images, not pixels.
+Can be resized to any size without losing quality.
+Small file sizes.
 
-## Unitt 7 Working With Media
+GIFs (Graphics Interchange Format):
+Good for illustrations with big areas of the same color.
+Not great for photos because they only support 256 colors.
+Transparent parts are possible, but edges might look jagged.
+
+JPGs (Joint Photographic Experts Group):
+Good for compressing photos.
+Commonly used by cameras.
+Resize and compress properly for faster website loading.
+Adjust color info to find the right balance between quality and size.
+
+PNGs (Portable Network Graphics):
+Good for transparent photos.
+Can sometimes compress images better than GIF or JPG.
+Experiment with different options for the smallest file size.
+
+General Tips:
+When dealing with images, consider size, format, and compression for faster downloads.
+HTML code remains the same regardless of the image format chosen.
+In a nutshell, SVGs are great for logos and icons, GIFs are good for simple illustrations, JPGs are for photos but need careful resizing, and PNGs are good for transparent images. Always think about the size and compression to make your website load faster.
+
+## Unitt 6 Working With Media
 The audio element is different from the image element because it has both an opening and a closing tag, <audio controls src="audio.mp3"></audio>
 Instead of relying on pre-built audio player controls, there is an option to create your own using JavaScript and the HTML media element API, <audio controls><source src="http/:example.com" type="audio/org:code">
 In Videos, Just like the audio element, the video element has an opening and closing tag. To display a video, use the source attribute to specify the video file, <video controls><source src="http/:example.com" type="video/mp4"></video>
 
 Use the track element and link it to a text file to add captions to the video. This element adds functionality to the video player, allowing viewers to toggle captions on and off or switch between different subtitle options. <video controls><source src="http/:example.com" type="video/mp4"><track src="https/:,..." kind="caption" label="english" srclang="en" default>
 
-HTML Content Identification
+An iframe is like a mini-browser window embedded within your webpage.
+You use an HTML tag called <iframe> and provide the web address (URL) of the content you want to show inside it.
+You can embed things like videos, maps, social media posts, or any other content that can be displayed on a webpage.
+Example: Embedding a YouTube video:
+If you want to put a YouTube video on your webpage, you grab the video's URL and put it inside an <iframe> tag like this:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+
+## Unit 7 HTML Content Identification
  In HTML, there are tools to indicate the language of your content. By setting things up correctly, search engines will understand which language websites are in. Spell checkers will provide the appropriate dictionaries, and when a browser reads the content aloud, it will pronounce the words correctly. The lang attribute is used to specify the language of a webpage.<html lang="eng">
 
 Meta charset="UTF-8" Imagine the text on the internet is like a big playground with lots of different characters, letters, and symbols. Now, to make sure everyone understands each other, we use something called Unicode, which is like a set of rules for all the characters to play nicely together.
@@ -97,6 +126,25 @@ UTF-8 is like a special rulebook within Unicode that helps handle a huge variety
 Now, when you visit a website, your computer needs to know which rulebook (UTF-8 in this case) the website is using. If it doesn't know, things might get a bit mixed up, and the text could look strange or unreadable.
 To avoid this confusion, websites use a little code called HTML, and within HTML, there's a tag (like a label) called "meta charset." By adding this tag and setting it to "UTF-8," it's like telling your computer, "Hey, we're using the UTF-8 rulebook here!" This tag is placed in the head section of each webpage, sort of like the instructions at the beginning of a book.
 So, in simple terms, adding a meta charset tag with UTF-8 in HTML is like making sure everyone on the internet playground is reading from the same rulebook, preventing any confusion and making the text look right for everyone. 
+
+<div>
+It helps you group and organize content. You can put other elements like text, images, or even other <div> elements inside it.
+It's like having separate sections on a page for different types of content.
+<div>
+   <p>This is some text inside a division.</p>
+   <img src="image.jpg" alt="An image">
+</div>
+In the example above, the <div> is like a box containing a paragraph and an image.
+ 
+3. <span>
+<span> is like a small container but is used for inline elements, not big blocks like <div>.
+It's handy when you want to apply styles or do something specific to a small piece of text or content within a larger block.
+<p>This is <span style="color: blue;">blue</span> text.</p>
+In this example, only the word "blue" will be colored blue.
+
+<div> is like a big container or box, grouping larger chunks of content.
+<span> is like a small container, used for specific bits of content within a larger block.
+These elements help you structure and style your webpage, making it organized and visually appealing.
 
 ## Unit 8 HTML Integration
 
