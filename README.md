@@ -253,7 +253,7 @@ Internal or Embedded CSS: Putting the styling within the HTML file, specifically
 Example: Writing styles in the <style> tag inside the <head> section of your HTML file.
 
 External CSS: Storing styling in a separate CSS file.
-Example: Creating a separate file (e.g., style.css) with your styling rules and linking it to your HTML file using the <link> tag in the head section.
+Example: Creating a separate file (e.g., style.css) with your styling rules and linking it to your HTML file using the <link> tag in the head section. (<link rel="stylesheet" href="mystyle.css">)
 
 /* This is a single-line comment */ This is the CSS comment
 
@@ -289,4 +289,36 @@ Descendant Selector is used to style elements that are descendants of a specifie
 
 ## Unit 3 Images and colors
 
+Color Representation:
+Keyword: Use predefined color names.
+Example: color: red;
+
+Hexadecimal: Represent colors using a hexadecimal code.
+Example: color: #ff0000; (red)
+
+RGB (Red, Green, Blue): Specify colors using values for red, green, and blue.
+Example: color: rgb(255, 0, 0); (red)
+
+RGBA (Red, Green, Blue, Alpha): Similar to RGB, but includes an alpha channel for transparency.
+Example: color: rgba(255, 0, 0, 0.5); (semi-transparent red)
+
+
+HSL (Hue, Saturation, Lightness): Define colors based on their hue, saturation, and lightness.
+Example: color: hsl(0, 100%, 50%); (red)
+
+HSLA (Hue, Saturation, Lightness, Alpha): Similar to HSL, but includes an alpha channel for transparency.
+Example: color: hsla(0, 100%, 50%, 0.5); (semi-transparent red)
+
+Background Color: background-color: value;
+Example: background-color: #ffffff; (white background)
+
+Border Color: border-color: value;
+Example: border-color: rgb(0, 255, 0); (green border)
+
+Text Color: color: value;
+Example: color: #333333; (dark gray text)
+Link Color: a:link { color: value; }
+Example: a:link { color: #0000ff; } (blue unvisited link)
+Hover Color: a:hover { color: value; }
+Example: a:hover { color: #ff0000; } (red link on hover)
 
