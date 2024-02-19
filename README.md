@@ -240,3 +240,57 @@ for example:
     <td>0733047979</td>
   </tr>
 </table>
+
+## Intro to CSS
+CSS, short for cascading style sheets, is the language that controls the pretty stuff on websites, it holds all the styles for your webpage, It describes how HTML elements should be displayed on the web page.. This adds visual appeal to your webpage. To connect the HTML and CSS, you simply link them togethe. HTML and CSS work hand in hand to create the visual aspects of a webpage.
+In CSS, each style declaration consists of two parts: A property and A value. 
+
+3 Types of CSS
+Inline CSS: Putting the styling directly on the HTML element.
+Example: Adding color directly to a paragraph in the HTML code, like <p style="color: blue;">This is a blue paragraph.</p>.
+
+Internal or Embedded CSS: Putting the styling within the HTML file, specifically in the head section.
+Example: Writing styles in the <style> tag inside the <head> section of your HTML file.
+
+External CSS: Storing styling in a separate CSS file.
+Example: Creating a separate file (e.g., style.css) with your styling rules and linking it to your HTML file using the <link> tag in the head section.
+
+Selectors
+
+#id: Selects the HTML element with a specific id.
+Example: #firstname selects the element with id="firstname".
+
+.class: Selects all HTML elements with a specific class.
+Example: .intro selects all elements with class="intro".
+
+element.class: Selects a specific type of HTML element with a specific class.
+Example: p.intro selects only <p> elements with class="intro".
+*: Selects all HTML elements.
+Example: * selects all elements on the page.
+
+element: Selects a specific type of HTML element.
+Example: p selects all <p> elements.
+
+element,element,...: Selects multiple types of HTML elements.
+Example: div, p selects all <div> elements and all <p> elements on the page.
+
+Class Selector:
+
+Purpose: Used to select and style elements based on their class attribute.
+Syntax: .classname { /* styles go here */ }
+Example: If you have HTML elements with class="box", the corresponding CSS rule would be .box { /* styles go here */ }.
+Grouping Selector:
+
+Purpose: Allows you to apply the same styles to multiple selectors by grouping them together.
+Syntax: selector1, selector2, selector3 { /* styles go here */ }
+Example: h1, h2, p { /* styles go here */ } will apply the specified styles to all <h1>, <h2>, and <p> elements.
+Descendant Selector:
+
+Purpose: Selects an element that is a descendant of another specified element, no matter how deeply nested.
+Syntax: ancestor descendant { /* styles go here */ }
+Example: div p { /* styles go here */ } selects all <p> elements that are descendants of a <div>.
+Summary:
+
+Class Selector is used for styling elements with a specific class.
+Grouping Selector is used to apply the same styles to multiple selectors.
+Descendant Selector is used to style elements that are descendants of a specified ancestor.
