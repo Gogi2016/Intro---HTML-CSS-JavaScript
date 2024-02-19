@@ -255,42 +255,38 @@ Example: Writing styles in the <style> tag inside the <head> section of your HTM
 External CSS: Storing styling in a separate CSS file.
 Example: Creating a separate file (e.g., style.css) with your styling rules and linking it to your HTML file using the <link> tag in the head section.
 
-Selectors
+/* This is a single-line comment */ This is the CSS comment
+
+## Uniti 2 Adding Selectors
 
 #id: Selects the HTML element with a specific id.
 Example: #firstname selects the element with id="firstname".
 
-.class: Selects all HTML elements with a specific class.
-Example: .intro selects all elements with class="intro".
+.class	.intro:	Selects all elements with class="intro"
 
 element.class: Selects a specific type of HTML element with a specific class.
 Example: p.intro selects only <p> elements with class="intro".
-*: Selects all HTML elements.
-Example: * selects all elements on the page.
 
 element: Selects a specific type of HTML element.
 Example: p selects all <p> elements.
 
-element,element,...: Selects multiple types of HTML elements.
-Example: div, p selects all <div> elements and all <p> elements on the page.
-
-Class Selector:
-
-Purpose: Used to select and style elements based on their class attribute.
+Class Selector: Used to select and style elements based on their class attribute.
 Syntax: .classname { /* styles go here */ }
 Example: If you have HTML elements with class="box", the corresponding CSS rule would be .box { /* styles go here */ }.
-Grouping Selector:
 
-Purpose: Allows you to apply the same styles to multiple selectors by grouping them together.
+Grouping Selector/ Eelement,Element,...: Allows you to apply the same styles to multiple selectors by grouping them together.
 Syntax: selector1, selector2, selector3 { /* styles go here */ }
 Example: h1, h2, p { /* styles go here */ } will apply the specified styles to all <h1>, <h2>, and <p> elements.
-Descendant Selector:
 
-Purpose: Selects an element that is a descendant of another specified element, no matter how deeply nested.
+Descendant Selector: Selects an element that is a descendant of another specified element, no matter how deeply nested.
 Syntax: ancestor descendant { /* styles go here */ }
 Example: div p { /* styles go here */ } selects all <p> elements that are descendants of a <div>.
-Summary:
 
+Summary:
 Class Selector is used for styling elements with a specific class.
 Grouping Selector is used to apply the same styles to multiple selectors.
 Descendant Selector is used to style elements that are descendants of a specified ancestor.
+
+## Unit 3 Images and colors
+
+
