@@ -322,3 +322,8 @@ Example: a:link { color: #0000ff; } (blue unvisited link)
 Hover Color: a:hover { color: value; }
 Example: a:hover { color: #ff0000; } (red link on hover)
 
+## Unit 4 CSS Boxes, types and sizes
+Understanding Type in CSS
+
+Serif Fonts: These have small lines at the ends of the letters, and they were traditionally used for printed materials with lots of text. The little lines (serifs) helped connect the letters and made reading easier.
+Sans Serif Fonts: These don't have those small lines at the ends, and they look more modern. On the web, we often use sans serif fonts because they are clean and easy to read on screens.
