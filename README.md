@@ -329,9 +329,19 @@ Understanding Type in CSS
 
 Serif Fonts: These have small lines at the ends of the letters, and they were traditionally used for printed materials with lots of text. The little lines (serifs) helped connect the letters and made reading easier.
 Sans Serif Fonts: These don't have those small lines at the ends, and they look more modern. On the web, we often use sans serif fonts because they are clean and easy to read on screens.
-Margin: 30px (on all 4 sizes we want 30px)
-padding: 10px 20px (to the left & right we want 10px, top and buttom we want 20px)
-border: 1px solid yellow: ( 1px is how thick, solid is its style, yellow is its color)
-border-radius: 5px (circle on thr egdes
-box shoadow: 10px, 20px, 30px, blue (if you want left shadow use (-px) then color of the shadow here is blue)
+font-style: italic (this makes the font to be italic
+
+font faces are safe to use online without Google Fonts or similar online font repositories: Arial, Helvetica, and Verdana.
+absolute and relative units
+Absolute units, like points or pixels, maintain a constant size, while relative units, such as percentages or "rem," adjust based on the page size, providing better flexibility.
+The preferred font size unit, "rem," is explained, with 1 rem equal to 16 pixels. The Point to REM Converter tool is introduced to facilitate unit conversions, especially for those more familiar with pixels or points.
+Each font is evaluated to see if it is available. The first one that is available displays. If no fonts are available, the stack defaults to the specified generic font (sans-serif, serif).
+Margin: 30px (on all 4 sizes we want 30px), margin to separate the block from things outside it
+padding: 10px 20px (to the left & right we want 10px, top and buttom we want 20px), space between the content and the border that may take on a background color
+border: 1px solid yellow: ( 1px is how thick, solid is its style, yellow is its color), The border is the line that surrounds the padding and content, defining the boundaries of the element.
+It separates the padding from the outer space (margin).
+border-radius: 5px (circle on thr egdes)
+box shoadow: 10px, 20px, 30px, blue. This is the box shadow (if you want left shadow use (-px) then color of the shadow here is blue)
+
+## Uniit 5
 
