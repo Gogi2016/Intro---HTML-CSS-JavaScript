@@ -241,6 +241,8 @@ for example:
   </tr>
 </table>
 
+## CSS
+
 ## Intro to CSS
 CSS, short for cascading style sheets, is the language that controls the pretty stuff on websites, it holds all the styles for your webpage, It describes how HTML elements should be displayed on the web page.. This adds visual appeal to your webpage. To connect the HTML and CSS, you simply link them togethe. HTML and CSS work hand in hand to create the visual aspects of a webpage.
 In CSS, each style declaration consists of two parts: A property and A value. 
@@ -327,3 +329,9 @@ Understanding Type in CSS
 
 Serif Fonts: These have small lines at the ends of the letters, and they were traditionally used for printed materials with lots of text. The little lines (serifs) helped connect the letters and made reading easier.
 Sans Serif Fonts: These don't have those small lines at the ends, and they look more modern. On the web, we often use sans serif fonts because they are clean and easy to read on screens.
+Margin: 30px (on all 4 sizes we want 30px)
+padding: 10px 20px (to the left & right we want 10px, top and buttom we want 20px)
+border: 1px solid yellow: ( 1px is how thick, solid is its style, yellow is its color)
+border-radius: 5px (circle on thr egdes
+box shoadow: 10px, 20px, 30px, blue (if you want left shadow use (-px) then color of the shadow here is blue)
+
