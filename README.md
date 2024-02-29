@@ -343,5 +343,27 @@ It separates the padding from the outer space (margin).
 border-radius: 5px (circle on thr egdes)
 box shoadow: 10px, 20px, 30px, blue. This is the box shadow (if you want left shadow use (-px) then color of the shadow here is blue)
 
-## Uniit 5
+## Uniit 5 Advanced CSS Properties and Concepts
+To change link colors, the passage suggests targeting the "a" anchor tag in HTML.
+The a:hover state allows customization when hovering over a link.
+Example: Changing the color to #fe6100 (pink) and removing the underline with text-decoration: none
+To have separate styles for visited and unvisited links, use a:link for unvisited and a:visited for visited.
+Example: Defining a nice blue color for unvisited links and a purple shade (#785ef0) for visited links.
+
+Changing Font: At the beginning, we decide to change the font of our webpage to Arial. This affects the whole page.
+Inheriting Fonts: When we change the font for the main part of the page (the "body" element), all the stuff inside it, like headings and paragraphs, automatically get the same font. It's like a family sharing the same style.
+Adding a Border: We also put a red border around the whole page. Unlike the font, this border doesn't automatically apply to everything inside. We have to be specific about where we want the border.
+Example with "*" Selector: We show an extreme example using the "*" selector, which selects everything. If we put a border on everything, It demonstrates that not everything should inherit certain styles, especially borders.
+Control Over Styles: We explain that sometimes we want control over what styles get inherited and what don't. For instance, we might want a border for the whole page but not for every little thing inside it.
+Importance for Developers: For people who create websites (developers), understanding this helps in making sure the webpage looks good and isn't messy. It's like knowing how to organize things neatly.
+Final Point:
+
+Debugging CSS with Borders and Background Colors
+When you're working with CSS to style elements on a webpage, you might face challenges where your styles don't seem to work as expected. Debugging, or finding and fixing these issues, can be made easier with a helpful trick.
+One way to debug is by adding a background color or a border to the element you're trying to style. For example, let's consider an unordered list (UL) in HTML. If you want to understand the position of the UL on the page, you can add a border with a CSS style like "border: 2px solid red." This border will reveal the full width of the UL, showing that it extends across the body element.
+
+Now, comparing the UL to the link (A) within the list item (LI), setting the background color of the link to FFB000 shows that links are only as wide as their content. This highlights the difference between block elements (like UL and LI) that take up the full width of their container and inline elements (like links) that are only as wide as their content.
+Suppose you want a hover effect that covers the entire width but only for the link. Changing the A (link) to an LI (list item), which is a block-level element, allows you to apply a hover effect using the "LI:hover" selector. The hover effect now covers the entire document width, revealing a potential problem—clicking at the edges of the document doesn't work with the link because it's only as wide as its text.
+To solve this, a quick fix for advanced users is adding the CSS style "display: block" to the A selector, stretching the link across the page. Additionally, defining a hover state for the link using "A:hover" can change the background color and text color. This ensures that hovering over the edges indicates the link is clickable, and the hover state spans the entire list.
+
 
