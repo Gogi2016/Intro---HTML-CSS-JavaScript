@@ -249,12 +249,12 @@ In CSS, each style declaration consists of two parts: A property and A value.
 
 3 Types of CSS
 Inline CSS: Putting the styling directly on the HTML element.
-Example: Adding color directly to a paragraph in the HTML code, like <p style="color: blue;">This is a blue paragraph.</p>.
+Example: Adding color directly to a paragraph in the HTML code using style atttribute, like <p style="color: blue;">This is a blue paragraph.</p>.
 
-Internal or Embedded CSS: Putting the styling within the HTML file, specifically in the head section.
+Internal or Embedded CSS: Putting the styling code within the HTML file, specifically in the head section.
 Example: Writing styles in the <style> tag inside the <head> section of your HTML file.
 
-External CSS: Storing styling in a separate CSS file.
+External CSS: Storing styling in a separate CSS file. Usually the file is named as style.css
 Example: Creating a separate file (e.g., style.css) with your styling rules and linking it to your HTML file using the <link> tag in the head section. (<link rel="stylesheet" href="mystyle.css">)
 
 /* This is a single-line comment */ This is the CSS comment
@@ -264,7 +264,8 @@ Example: Creating a separate file (e.g., style.css) with your styling rules and 
 #id: Selects the HTML element with a specific id.
 Example: #firstname selects the element with id="firstname".
 
-.class	.intro:	Selects all elements with class="intro"
+.class: Selects the HTML element with a specific class  
+Exaple: .intro:	Selects all elements with class="intro"
 
 element.class: Selects a specific type of HTML element with a specific class.
 Example: p.intro selects only <p> elements with class="intro".
@@ -332,12 +333,13 @@ Sans Serif Fonts: These don't have those small lines at the ends, and they look 
 font-style: italic (this makes the font to be italic
 
 font faces are safe to use online without Google Fonts or similar online font repositories: Arial, Helvetica, and Verdana.
+
 absolute and relative units
 Absolute units, like points or pixels, maintain a constant size, while relative units, such as percentages or "rem," adjust based on the page size, providing better flexibility.
 The preferred font size unit, "rem," is explained, with 1 rem equal to 16 pixels. The Point to REM Converter tool is introduced to facilitate unit conversions, especially for those more familiar with pixels or points.
 Each font is evaluated to see if it is available. The first one that is available displays. If no fonts are available, the stack defaults to the specified generic font (sans-serif, serif).
 Margin: 30px (on all 4 sizes we want 30px), margin to separate the block from things outside it
-padding: 10px 20px (to the left & right we want 10px, top and buttom we want 20px), space between the content and the border that may take on a background color
+padding: 10px 20px (to the left & right we want 10px, top and buttom we want 20px), space between the content and the border that may take on a background color, it is transparent
 border: 1px solid yellow: ( 1px is how thick, solid is its style, yellow is its color), The border is the line that surrounds the padding and content, defining the boundaries of the element.
 It separates the padding from the outer space (margin).
 border-radius: 5px (circle on thr egdes)
