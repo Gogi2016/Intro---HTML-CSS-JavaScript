@@ -369,3 +369,50 @@ Suppose you want a hover effect that covers the entire width but only for the li
 To solve this, a quick fix for advanced users is adding the CSS style "display: block" to the A selector, stretching the link across the page. Additionally, defining a hover state for the link using "A:hover" can change the background color and text color. This ensures that hovering over the edges indicates the link is clickable, and the hover state spans the entire list.
 
 
+## Introduction to JavaScript
+
+JavaScript is programming language in web development, responsible for creating interactive elements and animations on web pages. It plays a vital role alongside HTML and CSS, forming the three pillars of web development. JavaScript is specifically designed to integrate seamlessly with HTML and is widely supported by major web browsers, though users can choose to disable its support. Examples of JavaScript applications include search boxes, live sports scores, and video playback on websites.
+
+Comments:
+Comments in JavaScript are used to add explanatory notes or remarks within the code. They are ignored by the JavaScript interpreter and do not affect the execution of the code. Single-line comments are denoted by "//", and multiline comments are enclosed between "/" and "/".
+// This is a single-line comment
+/*
+This is a
+multiline comment
+*/
+
+Variables:
+Variables are containers for storing data values. In JavaScript, you can declare a variable using the var, let, or const keyword.
+var age = 25;      // Declaring a variable using var
+let name = "John"; // Declaring a variable using let
+const pi = 3.14;   // Declaring a constant variable using const
+
+Operators:
+Operators perform operations on variables and values. Common types of operators in JavaScript include arithmetic, assignment, comparison, logical, and more.
+// Arithmetic operators
+let sum = 5 + 10;
+let product = 3 * 7;
+
+// Assignment operator
+let x = 20;
+
+// Comparison operators
+let isEqual = (x === 20); // Strict equality check
+
+// Logical operators
+let isTrue = (true && false); // Logical AND
+
+Assignments:
+Assignments involve giving values to variables. Variables can be assigned values using the assignment operator (=).
+let message;        // Declare a variable
+message = "Hello";  // Assign a value to the variable
+
+// Combining declaration and assignment
+let greeting = "Hi";
+
+
+
+
+
+
+
