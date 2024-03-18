@@ -516,4 +516,53 @@ function myCallback(value) {
 const myArray = [1, 2, 3];
 myArray.forEach(myCallback); // Output: 1 2 3
 
+Booleans:
+In JavaScript, booleans are a data type that represents one of two values: true or false. Booleans are commonly used in conditional statements, loops, and logical operations to control the flow of a program.
+
+Boolean Values:
+true: Represents a true condition.
+false: Represents a false condition.
+
+Boolean Context:
+Many JavaScript expressions are automatically converted to booleans when evaluated in a boolean context. For example, in an if statement, the expression inside the parentheses is automatically coerced to a boolean value.
+Values that are "falsy" are converted to false in a boolean context. These include false, 0, NaN, null, undefined, and the empty string ''. All other values are considered "truthy".
+
+Boolean Operators:
+JavaScript provides several operators for working with boolean values:
+Logical AND (&&): Returns true if both operands are true, otherwise returns false.
+Logical OR (||): Returns true if at least one of the operands is true, otherwise returns false.
+Logical NOT (!): Returns the opposite boolean value of the operand.
+These operators are commonly used in conditional statements and logical evaluations.
+
+Boolean Functions and Methods:
+JavaScript provides methods and functions that return boolean values or operate on boolean values:
+Boolean(): Converts a value to a boolean. For example, Boolean(0) returns false.
+isNaN(): Checks if a value is NaN (Not a Number). Returns true if the value is NaN, otherwise returns false.
+typeof: Checks the data type of a value. For example, typeof x === 'boolean' checks if x is a boolean.
+
+Example usage:
+let x = 10;
+let y = 5;
+
+// Logical AND
+console.log(x > 5 && y < 10); // Output: true
+
+// Logical OR
+console.log(x > 10 || y === 5); // Output: true
+
+// Logical NOT
+console.log(!(x === 5)); // Output: true
+
+// Boolean Function
+console.log(Boolean(0)); // Output: false
+
+// isNaN function
+console.log(isNaN("Hello")); // Output: true
+
+// typeof operator
+console.log(typeof true); // Output: "boolean"
+
+Javascript APIs:
+
+
 
