@@ -410,9 +410,110 @@ message = "Hello";  // Assign a value to the variable
 // Combining declaration and assignment
 let greeting = "Hi";
 
+Strings & Arrays
+
+Strings:
+A string is a sequence of characters, such as "hello" or "JavaScript".
+Strings are immutable, meaning their values cannot be changed after they are created.
+You can access individual characters in a string using bracket notation or methods like charAt() or substring().
+Common string methods include toUpperCase(), toLowerCase(), trim(), split(), indexOf(), lastIndexOf(), startsWith(), endsWith(), replace(), and many others.
+
+Example:
+let myString = "Hello, world!";
+console.log(myString[0]); // Output: "H"
+console.log(myString.charAt(7)); // Output: "w"
+console.log(myString.toUpperCase()); // Output: "HELLO, WORLD!"
+console.log(myString.split(", ")); // Output: ["Hello", "world!"]
+
+Arrays:
+An array is an ordered collection of values, which can be of any type, including strings, numbers, objects, or even other arrays.
+Arrays are mutable, meaning you can change their elements.
+You can access individual elements in an array using bracket notation and various methods like push(), pop(), shift(), unshift(), splice(), slice(), indexOf(), includes(), and many others.
+Arrays have a length property that indicates the number of elements in the array.
+
+Example:
+let myArray = ["apple", "banana", "orange"];
+console.log(myArray[1]); // Output: "banana"
+myArray.push("grape"); // Adds "grape" to the end of the array
+console.log(myArray); // Output: ["apple", "banana", "orange", "grape"]
+console.log(myArray.length); // Output: 4
 
 
+Converting between Strings and Arrays:
+You can convert a string to an array using the split() method.
+You can convert an array to a string using the join() method.
 
+Example:
+let myString = "Hello, world!";
+let myArray = myString.split(", ");
+console.log(myArray); // Output: ["Hello", "world!"]
 
+let newArray = ["Hello", "world!"];
+let newString = newArray.join(", ");
+console.log(newString); // Output: "Hello, world!"
+Understanding how to manipulate strings and arrays is crucial for working effectively with JavaScript and building dynamic web applications.
+
+Functions:
+In JavaScript, functions are blocks of reusable code that perform a specific task. They allow you to encapsulate logic, making your code modular, easier to read, and easier to maintain. 
+
+Function Declaration:
+You can declare a function using the function keyword followed by the function name, parameters (if any), and the function body enclosed in curly braces {}.
+function greet(name) {
+  console.log("Hello, " + name + "!");
+}
+
+Function Expression:
+You can also define functions using function expressions, where the function is assigned to a variable.
+const greet = function(name) {
+  console.log("Hello, " + name + "!");
+};
+
+Arrow Functions (ES6+):
+Arrow functions provide a more concise syntax for writing functions.
+const greet = (name) => {
+  console.log("Hello, " + name + "!");
+};
+
+Function Invocation:
+To execute a function, you simply call it by its name followed by parentheses ().
+greet("Alice"); // Output: Hello, Alice!
+
+Parameters and Arguments:
+Parameters are placeholders for values that a function will receive when it's called. Arguments are the actual values passed to the function during the function call.
+function add(a, b) {
+  return a + b;
+}
+console.log(add(2, 3)); // Output: 5
+
+Return Statement:
+Functions can return values using the return statement. When a return statement is encountered, the function stops executing and returns the specified value.
+function multiply(a, b) {
+  return a * b;
+}
+console.log(multiply(2, 3)); // Output: 6
+
+Function Scope:
+Variables declared inside a function are scoped to that function and are not accessible from outside.
+function scopeExample() {
+  let x = 10;
+  console.log(x); // Output: 10
+}
+scopeExample();
+console.log(x); // Error: x is not defined
+
+Anonymous Functions:
+Functions without a name are called anonymous functions. They are often used as callback functions or immediately invoked function expressions (IIFE).
+const result = (function() {
+  return "Hello from IIFE!";
+})();
+console.log(result); // Output: Hello from IIFE!
+
+Callback Functions:
+Functions passed as arguments to another function are called callback functions. They are commonly used in asynchronous code, event handling, and array methods like map(), filter(), forEach(), etc.
+function myCallback(value) {
+  console.log(value);
+}
+const myArray = [1, 2, 3];
+myArray.forEach(myCallback); // Output: 1 2 3
 
 
