@@ -410,6 +410,58 @@ message = "Hello";  // Assign a value to the variable
 // Combining declaration and assignment
 let greeting = "Hi";
 
+## Arithmetic operators
+Unary Operatoras These operators require one operand for operation. Providing two or more can result in a syntax error for example The typeof operator returns the data type of a value. It requires only one operand. Here's an example: typeof "hello"
+Binary Operator These operators require two operands for operation. If one or more than two operands are provided, such operators result in a syntax error. All arithmetic operators are binary operators. You have the first operand on the left of the operator, and the second operand on the right of the operator. 
+
+Remainder (%) 
+Binary operator. Returns the integer remainder of dividing the two operands, for example 12 % 5 returns 2. 
+
+Increement operator (--) Unary operator. Adds one to its operand. If used as a prefix operator (++x), returns the value of its operand after adding one; if used as a postfix operator (x++), returns the value of its operand before adding one. 
+If x is 3, then ++x sets x to 4 and returns 4, whereas x++ returns 3 and, only then, sets x to 4. 
+
+Decrement (--)  Unary operator. Subtracts one from its operand. The return value is analogous to that for the increment operator. 
+If x is 3, then --x sets x to 2 and returns 2, whereas x-- returns 3 and, only then, sets x to 2. 
+
+Unary negation (-) Unary operator. Returns the negation of its operand. If x is 3, then -x returns -3. 
+
+Unary plus (+)  Unary operator. Attempts to convert the operand to a number, if it is not already.  +"3" returns 3.  +true returns 1. 
+
+Exponentiation operator (**) Calculates the base to the exponent power, that is, baseexponent 
+2 ** 3 returns 8. 
+10 ** -1 returns 0.1
+
+## Bitwise Operators
+Bitwise AND 
+a & b 
+Returns a one in each bit position for which the corresponding bits of both operands are ones. 
+
+Bitwise OR 
+a | b 
+Returns a zero in each bit position for which the corresponding bits of both operands are zeros. 
+
+Bitwise XOR 
+a ^ b 
+Returns a zero in each bit position for which the corresponding bits are the same. 
+[Returns a one in each bit position for which the corresponding bits are different.] 
+
+Bitwise NOT 
+~ a 
+Inverts the bits of its operand. 
+
+Left shift 
+a << b 
+Shifts a in binary representation b bits to the left, shifting in zeros from the right. 
+
+Sign-propagating right shift 
+a >> b 
+Shifts a in binary representation b bits to the right, discarding bits shifted off. 
+
+Zero-fill right shift 
+a >>> b 
+Shifts a in binary representation b bits to the right, discarding bits shifted off, and shifting in zeros from the left. 
+
+
 ### Strings & Arrays
 
 ## Strings:
@@ -515,6 +567,10 @@ function myCallback(value) {
 const myArray = [1, 2, 3];
 myArray.forEach(myCallback); // Output: 1 2 3
 
+alert() causes an alert dialog box to appear over the page that launched it
+write() writes content to a page
+focus() causes the mouse cursor to be inserted into a form element.
+
 ## Booleans:
 In JavaScript, booleans are a data type that represents one of two values: true or false. Booleans are commonly used in conditional statements, loops, and logical operations to control the flow of a program.
 
@@ -599,7 +655,6 @@ Window: Provides methods and properties for manipulating browser windows.
 Console: Provides methods for logging messages to the browser console.
 History: Allows manipulation of the browser's session history.
 
-
 ## Javascript Forms
 In web development, forms are crucial for collecting user input and interacting with users. JavaScript plays a significant role in enhancing form functionality by adding interactivity, validation, and dynamic behavior. Below are some key aspects of working with forms in JavaScript:
 
@@ -660,3 +715,5 @@ Example:
     console.log('Form submitted:', { username, password });
   });
 </script>
+
+
