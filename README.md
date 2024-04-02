@@ -741,3 +741,82 @@ Example:
 
 4. **Multiparameter Function Coding**:
    - This part seems to be missing from the provided content.
+
+
+## onkeyup:
+This event is triggered when a key is released. It is commonly used to perform an action after the user releases a key. For example, you might use it to update a search field as the user types.
+document.getElementById("myInput").onkeyup = function() {
+  console.log("Key released!");
+};
+## onkeypress: 
+This event is triggered when a key is pressed down. It is often used to prevent certain characters from being entered into an input field or to trigger actions as soon as a key is pressed down.
+document.getElementById("myInput").onkeypress = function() {
+  console.log("Key pressed!");
+};
+
+## The onload, onunload, and onresize events are related to the loading, unloading, and resizing of the window or document.
+
+onload: This event is triggered when a page or an image is finished loading. It's commonly used to perform actions that need to happen after the entire page has loaded, such as initializing variables or setting up event listeners.
+window.onload = function() {
+  console.log("Page loaded!");
+};
+
+onunload: This event is triggered immediately before a page is unloaded, such as when the user navigates away from the page or closes the browser window. It's less commonly used, but can be helpful for performing cleanup tasks or confirming with the user before they leave the page.
+window.onunload = function() {
+  console.log("Page unloaded!");
+};
+
+onresize: This event is triggered when the size of the browser window or an element is changed. It's often used to adjust the layout of a webpage dynamically based on the window size.
+window.onresize = function() {
+  console.log("Window resized!");
+};
+
+## SlideShow
+A slideshow is a popular feature in web design and presentation software that allows for the sequential display of a series of images or other content. In web development, slideshows are commonly implemented using HTML, CSS, and JavaScript. Here's a basic overview of how you can create a simple slideshow using these technologies:
+HTML Structure: You'll need a container element to hold your slideshow images. Each image will typically be placed within a slide element.
+for example: <div class="slideshow">
+  <img src="image1.jpg" class="slide">
+  <img src="image2.jpg" class="slide">
+  <img src="image3.jpg" class="slide">
+</div>
+You can use CSS to style your slideshow, positioning the slides and defining their appearance.
+eg .slideshow {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.slide {
+  display: none; /* Hide all slides by default */
+  width: 100%; /* Ensure slides fill the container horizontally */
+  height: auto; /* Maintain aspect ratio */
+}
+JavaScript Functionality: You'll use JavaScript to control the slideshow behavior, such as transitioning between slides automatically or in response to user interaction.
+e.g  let slides = document.querySelectorAll('.slide');
+     let currentSlide = 0;
+
+function showSlide(n) {
+  slides[currentSlide].style.display = 'none';
+  currentSlide = (n + slides.length) % slides.length;
+  slides[currentSlide].style.display = 'block';
+}
+
+function nextSlide() {
+  showSlide(currentSlide + 1);
+}
+
+function prevSlide() {
+  showSlide(currentSlide - 1);
+}
+
+// Automatically advance slides every 5 seconds
+setInterval(nextSlide, 5000);
+
+// Optionally, you can add event listeners for user interaction
+// For example, to allow users to navigate using buttons:
+document.getElementById('prevBtn').addEventListener('click', prevSlide);
+document.getElementById('nextBtn').addEventListener('click', nextSlide);
+Optional Controls: You can add buttons or other elements to allow users to navigate between slides manually. For example, you can add "Previous" and "Next" buttons.
+
+<button id="prevBtn">Previous</button>
+<button id="nextBtn">Next</button>
