@@ -820,3 +820,43 @@ Optional Controls: You can add buttons or other elements to allow users to navig
 
 <button id="prevBtn">Previous</button>
 <button id="nextBtn">Next</button>
+
+## Javascript For Loop
+Loops in JavaScript are essential for executing a block of code repeatedly, typically when working with arrays or iterating over collections of data.
+
+For Loop: Executes a block of code a specified number of times.
+for (initialization; condition; iteration) {
+  // code block to be executed
+}
+Example:
+for (var i = 0; i < 5; i++) {
+  console.log("The number is " + i);
+}
+
+For/In Loop: Loops through the properties of an object.
+for (variable in object) {
+  // code block to be executed
+}
+
+For/Of Loop: Loops through the values of an iterable object like arrays, strings, etc.
+
+for (variable of iterable) {
+  // code block to be executed
+}
+
+While Loop: Executes a block of code while a specified condition is true.
+while (condition) {
+  // code block to be executed
+}
+
+Do/While Loop: Similar to a while loop, but the condition is evaluated after executing the block of code.
+
+do {
+  // code block to be executed
+} while (condition);
+
+In these loops:
+Statement 1 is optional and used for initializing variables.
+Statement 2 defines the condition for executing the code block.
+Statement 3 is optional and typically used for updating the loop control variable.
+
