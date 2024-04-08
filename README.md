@@ -868,4 +868,26 @@ In essence, SEO helps ensure that search engines understand and rank your conten
 
 ## Creating your Game
 
+## Intro to Node JS
+Node.js, introduced in 2009 by Ryan Dahl, revolutionized JavaScript by extending its use beyond front-end development to server-side programming. It is built on Chrome's V8 JavaScript engine, providing a runtime environment that allows JavaScript to execute on servers. Node.js gained significant traction with the release of npm (Node Package Manager) 1.0 in 2011, facilitating easy sharing and management of open-source libraries.
+
+node instalation use "npm"
+The Node.js Foundation, established in 2015, helped resolve community disputes and foster collaboration among major companies like IBM, Microsoft, and PayPal. This collaborative effort ensured the continued growth and evolution of Node.js as a prominent technology in the software development ecosystem.
+Node.js enables developers to leverage their JavaScript skills for a wide range of tasks, including building command-line tools, servers, and interacting with the file system. Its asynchronous, non-blocking I/O model makes it particularly efficient for handling tasks like networking and file system access in web applications.
+One of Node.js's key advantages is its ability to unify front-end and back-end development, allowing developers to share code seamlessly between client and server. This reduces cognitive overhead and promotes maintainability and efficiency in software development.
+Version of JavaScript does Node.js support is Both ES5 and ES6
+
+Node Global
+global object in Node.js represents the current module is Module
+the purpose of the ‘__filename’ variable in Node.js contains the absolute path of the current module file.
+to exit a Node.js process explicitly use 'process.exit()'
+the role of the '__dirname' variable in Node.js It stores the absolute path of the current module's directory.
+function is used to include external modules in Node.js is 'require()'
+
+Node Modules
+the purpose of the ‘module.exports’ object in Node.js modules It exports the content of the current module for use in other modules.
+They are automatically included in every Node.js application.
+the purpose of the ‘require.resolve()’ function in Node.js It resolves the path of a given module.
+the ‘__filename’ variable represent inside a module The path to the current module file.
+to import an entire module into a variable in Node.js 'const myModule = require('./myModule')'
 
